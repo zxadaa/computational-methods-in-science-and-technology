@@ -1,6 +1,6 @@
 # Computational Methods in Science and Technology
 
-This repository contains programming assignments and numerical experiments completed for the university course **Computational Methods in Science and Technology**. The labs explore numerical algorithms, their accuracy and stability, and ways to analyze and visualize their results.
+This repository contains numerical experiments and reports completed for the university course **Computational Methods in Science and Technology**. The labs explore numerical algorithms, their accuracy and stability, and ways to analyze and visualize their results.
 
 ## Labs
 
