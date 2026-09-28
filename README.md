@@ -34,13 +34,6 @@ lab8/                 Ordinary differential equations
 
 ## Running the Programs
 
-Run each script from its lab directory. For example:
-
-```bash
-cd lab8
-python3 ode.py
-```
+Run each script from its lab directory.
 
 The required Python version and packages may vary by lab. Check the lab's `instruction.txt` before running its scripts. Python dependencies used across the repository include NumPy, Matplotlib, Pandas, and Seaborn; Lab 1 may also require a C++ compiler, as described in its instructions.
-
-Some scripts write result files and plots when run. Existing outputs are kept in the corresponding `results/` and `plots/` folders.
