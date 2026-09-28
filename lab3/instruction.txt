@@ -1,0 +1,14 @@
+1. WYMAGANIA
+Program został napisany w języku Python 3. Do jego poprawnego działania wymagane jest środowisko Python oraz zainstalowane biblioteki zewnętrzne.
+Aby zainstalować brakujące pakiety, należy w terminalu wykonać polecenie:
+pip install numpy matplotlib
+
+2. URUCHOMIENIE
+Aby uruchomić program, należy otworzyć terminal, przejść do katalogu zawierającego plik ze skryptem i wykonać polecenie:
+python spline.py
+
+3. DZIAŁANIE PROGRAMU
+Po pomyślnym uruchomieniu skrypt automatycznie:
+- Stworzy folder "wykresy" w aktualnym katalogu roboczym.
+- Wygeneruje i zapisze w nim pliki .png z wykresami dla poszczególnych badanych wariantów.
+- Zapisze w głównym folderze plik "results_splines.csv" zawierający zestawienie obliczonych błędów.

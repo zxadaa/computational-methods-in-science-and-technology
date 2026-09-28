@@ -1,0 +1,21 @@
+1.WYMAGANIA
+Program został napisany w języku Python.
+Do jego uruchomienia wymagane jest środowisko Python w wersji 3.13.5 oraz zainstalowana zewnętrzna biblioteka numpy
+
+2.URUCHOMIENIE
+Aby uruchomić program, należy otworzyć terminal, przejść do katalogu zawierającego pliki ze skryptami i wykonać polecenia:
+python jacob_method.py
+python spectral_radius.py
+
+3.DZIAŁANIE PROGRAMU
+jacob.py: Bada szybkość zbieżności i stabilność metody Jacobiego dla układów o rozmiarze $N$ od 2 do 500.
+Skrypt analizuje zachowanie algorytmu dla różnych progów tolerancji błędu $\rho$ (od $10^(-3)$ do $10^(-15)$),
+dwóch kryteriów stopu (przyrostowego i rezydualnego) oraz dwóch wektorów początkowych (zerowego oraz wektora dalekiego o wartościach $\{-100, 100\}$).
+Program oblicza liczbę iteracji potrzebną do zbiegnięcia, dokładny czas wykonania, czas pojedynczej iteracji oraz maksymalny błąd bezwzględny względem rozwiązania referencyjnego.
+Pełne zestawienie wyników jest automatycznie zapisywane do pliku results_task1.csv.
+
+spectral.py: Służy do analizy teoretycznej zbieżności badanej macierzy. Algorytm wylicza macierz iteracyjną,
+a następnie wyznacza jej wartości własne w celu obliczenia promienia spektralnego. Skrypt analizuje układ dla
+szerszego zakresu wymiarów, badając rozmiary $N$ od 2 aż do 5000. Wygenerowane promienie spektralne dla poszczególnych
+rozmiarów są zapisywane do odpowiedniego pliku CSV, co pozwala na ocenę siły zbieżności i stabilności numerycznej metody
+Jacobiego dla tego konkretnego problemu.

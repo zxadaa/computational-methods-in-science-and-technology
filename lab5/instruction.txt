@@ -1,0 +1,14 @@
+1.WYMAGANIA
+Program został napisany w języku Python.
+Do jego uruchomienia wymagane jest jedynie standardowe środowisko Python w wersji 3.13.5.
+
+2.URUCHOMIENIE
+Aby uruchomić program, należy otworzyć terminal, przejść do katalogu zawierającego pliki ze skryptami i wykonać polecenia:
+python newton.py
+python secant.py
+
+3.DZIAŁANIE PROGRAMU
+Po pomyślnym uruchomieniu skrypty automatycznie:
+- Przeprowadzą w pętli serię eksperymentów numerycznych dla pełnego przekroju tolerancji rho i wybranych punktów startowych.
+- Zapiszą w głównym folderze pliki newton_results.csv oraz secant_results.csv zawierające zestawienie obliczonych błędów,
+odnalezione wartości pierwiastków, liczbę iteracji oraz status zakończenia pętli.

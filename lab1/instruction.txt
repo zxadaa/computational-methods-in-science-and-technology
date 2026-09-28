@@ -1,0 +1,24 @@
+OPIS PROGRAMU:
+Program demonstruje zjawisko niestabilności numerycznej na przykładzie
+ciągu rekurencyjnego Mullera. Oblicza wartości ciągu do iteracji x34
+dla trzech typów precyzji: float, double oraz long double.
+
+STRUKTURA:
+- main.cpp: główny kod źródłowy programu.
+- results.csv: plik wynikowy generowany automatycznie
+
+WYMAGANIA:
+- kompilator: G++ wspierający standard C++20
+
+KOMPILACJA I URUCHOMIENIE:
+- wpisać w terminalu następujące polecenia:
+g++ -std=c++20 -Wall -Wextra -pedantic -o precision_test main.cpp
+./precision_test
+- program można też uruchomić bezpośrednio w środowisku programistycznym C++
+
+WIZUALIZACJA WYNIKÓW:
+- uruchomić skrypt w języku Python za pomocą polecenia:
+python3 visualization.py
+
+Program automatycznie wygeneruje plik graficzny wykres.png, przedstawiający
+porównanie precyzji obliczeń dla różnych typów danych.

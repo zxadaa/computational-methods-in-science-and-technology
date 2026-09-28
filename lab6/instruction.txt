@@ -1,0 +1,20 @@
+1.WYMAGANIA
+Program został napisany w języku Python.
+Do jego uruchomienia wymagane jest środowisko Python w wersji 3.13.5 oraz zainstalowana zewnętrzna biblioteka numpy
+
+2.URUCHOMIENIE
+Aby uruchomić program, należy otworzyć terminal, przejść do katalogu zawierającego pliki ze skryptami i wykonać polecenia:
+python gauss.py
+
+3.DZIAŁANIE PROGRAMU
+W zależności od wywołanej w skrypcie funkcji, program automatycznie wykona jedną z poniższych analiz:
+- run_task1(): Bada układ z macierzą skrajnie źle uwarunkowaną, $n$ od 2 do 20.
+Rozwiązuje układ klasyczną metodą Gaussa dla precyzji float32 i float64, wylicza błędy maksymalne oraz wskaźniki uwarunkowania,
+a następnie zapisuje wyniki do pliku task1_results.csv.
+- run_task2(): Bada układ z macierzą dobrze uwarunkowaną, dla wybranych $n$ aż do 150.
+Działa analogicznie do zadania pierwszego – korzystając z metody Gaussa, oblicza błędy i uwarunkowanie obu precyzji,
+generując plik task2_results.csv.
+- run_task3(): Bada układ z macierzą trójdiagonalną, dla $n$ aż do 1000.
+Rozwiązuje równania dwiema metodami: eliminacją Gaussa oraz algorytmem Thomasa w obu precyzjach.
+Oprócz uwarunkowania i błędów, precyzyjnie mierzy czas wykonania poszczególnych algorytmów oraz alokowaną przez nie pamięć,
+po czym zapisuje pełne zestawienie do task3_results.csv.

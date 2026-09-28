@@ -1,0 +1,11 @@
+1. WYMAGANIA
+Program został napisany w języku Python. Do uruchomienia wymagane jest środowisko Python oraz zainstalowane biblioteki zewnętrze: numpy i matplotlib.
+
+2. URUCHOMIENIE
+Aby uruchomić program, należy otworzyć terminal, przejść do katalogu ze skryptem i wykonać polecenie:
+python ode.py
+
+3. DZIAŁANIE PROGRAMU
+Skrypt rozwiązuje zadane równanie różniczkowe za pomocą metody Eulera oraz Rungego-Kutty 4. rzędu (RK4) dla różnych wielkości kroku h. Następnie program porównuje otrzymane wyniki z rozwiązaniem dokładnym i wylicza maksymalne błędy obu metod. 
+
+Dane z wynikami dla poszczególnych kroków zapisywane są w pliku results.csv, a podsumowanie maksymalnych błędów w pliku errors.csv. Dla każdego badanego kroku h program automatycznie generuje i zapisuje wykresy w formacie PNG, obrazujące porównanie obu metod numerycznych z rozwiązaniem analitycznym.
